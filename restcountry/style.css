@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+
+.first, .second{
+    width: 90%;
+    margin: auto;
+}
+
+.first form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.first input{
+    width: 80%;
+    padding: 10px;
+}
+
+.first button{
+    width: 20%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none ;
+    cursor: pointer;
+}
+
+.second table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.second tr{
+    background-color: rgb(148, 113, 113);
+}
+
+.second tr:nth-child(odd){
+    background: rgb(192, 192, 192);
+}
+
+.second th,td{
+    padding: 10px;
+}
+
+.second a{
+    text-decoration: none;
+}
